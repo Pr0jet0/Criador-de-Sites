@@ -1,0 +1,41 @@
+:root{
+    --cor-primaria-proximo : rgb(73, 73, 73);
+    --cor-hover-proximo : rgb(172, 172, 172);
+    --cor-secundaria-proximo : #1f1f1f;
+
+    padding: 5px 10p 5px 100px;
+
+}
+
+.btn-proximo:hover{
+    background-color: var(--cor-primaria-proximo);
+    outline: none;
+    color: var(--cor-secundaria-proximo);
+
+    
+}
+
+.btn-proximo{
+    background-color: var(--cor-hover-proximo);
+
+}
+
+.btn-proximo:active{
+    background-color: var(--cor-secundaria-proximo);
+    color: #ffffff;
+}
+
+body {
+    color: rgb(0, 0, 0);
+    background: rgb(141, 141, 141);
+    text-align: center;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
